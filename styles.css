@@ -1,0 +1,98 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fafafa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #000;
+    color: gold;
+    text-align: center;
+    padding: 2rem;
+}
+
+.logo {
+    width: 60px;
+}
+
+.services {
+    padding: 2rem;
+    background: #fff;
+}
+
+.services h2 {
+    color: #222;
+    font-size: 2rem;
+}
+
+.services ul {
+    list-style: square;
+    padding-left: 2rem;
+}
+
+#chatButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #222;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#chatPopup {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background: #fff;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    border: 1px solid #ccc;
+}
+
+#contactForm h3 {
+    margin-top: 0;
+    color: #000;
+}
+
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+#contactForm button {
+    background: #000;
+    color: gold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.social-icons a {
+    font-size: 24px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+footer {
+    background: #000;
+    color: gold;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
