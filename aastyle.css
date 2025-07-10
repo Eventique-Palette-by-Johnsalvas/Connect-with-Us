@@ -1,0 +1,106 @@
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header {
+  background: linear-gradient(to right, #1f1c2c, #928dab);
+  color: white;
+  padding: 3rem 0;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.services-section {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.service {
+  background: #f0f0f0;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  width: 220px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.chat-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #1f1c2c;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+  width: 320px;
+  z-index: 1000;
+}
+
+.form input, .form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.form button {
+  width: 100%;
+  background-color: #1f1c2c;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.social-links {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.social-links a {
+  font-size: 20px;
+  margin: 0 8px;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #1f1c2c;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 0.9rem;
+}

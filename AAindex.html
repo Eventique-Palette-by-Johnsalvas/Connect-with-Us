@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eventique Palette | Premium Events</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Eventique Palette</h1>
+      <p>Elegant Events & Timeless Memories</p>
+    </div>
+  </header>
+
+  <section class="services-section">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service">🎈 Balloon Arches</div>
+        <div class="service">🎭 Stage Decorations</div>
+        <div class="service">💐 Fresh/Dry Bouquets</div>
+        <div class="service">🎉 Birthday Celebrations</div>
+        <div class="service">🎤 Party Hosts</div>
+        <div class="service">🎨 Face Painting</div>
+        <div class="service">✨ Custom Themes</div>
+      </div>
+    </div>
+  </section>
+
+  <button class="chat-btn" onclick="toggleChat()">💬 Let's Connect</button>
+  <div class="chat-popup" id="chatPopup">
+    <form class="form" onsubmit="handleSubmit(event)">
+      <h3>Connect With Us</h3>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Email Address" required />
+      <input type="tel" placeholder="Phone Number" required />
+      <textarea placeholder="Tell us about your event..." required></textarea>
+      <button type="submit">Send</button>
+      <div class="social-links">
+        <a href="https://wa.me/96879616061" target="_blank">📱</a>
+        <a href="https://www.instagram.com/eventiquepalette" target="_blank">📷</a>
+        <a href="mailto:eventiquepalette@gmail.com">📧</a>
+        <a href="https://maps.app.goo.gl/kTLDpdPQwWFpzA9ZA" target="_blank">📍</a>
+      </div>
+    </form>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>📞 +968 7961 6061 | 📧 eventiquepalette@gmail.com</p>
+      <p>© 2025 Eventique Palette by Johnsalvas</p>
+    </div>
+  </footer>
+</body>
+</html>
